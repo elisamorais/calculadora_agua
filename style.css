@@ -1,5 +1,6 @@
 html {
     font-family: 'Anek Latin', sans-serif;
+    
 }
 
 #cabecalho {
@@ -22,11 +23,19 @@ body {
     background-size: cover;
 }
 
+
 .mae {
     display: flex;
     flex-direction: row;
     border-width: 25px;
     justify-content:center;
+}
+
+@media only screen and (max-width: 600px) {
+    .mae {
+      flex-direction: column;
+      align-items: center;
+    }
 }
 
 .mae > div {
