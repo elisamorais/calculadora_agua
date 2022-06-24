@@ -1,0 +1,130 @@
+html {
+    font-family: 'Anek Latin', sans-serif;
+}
+
+#cabecalho {
+    border: 20px;
+    color: #47B5FF;
+    text-align: center;
+    margin-top: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+body {
+    background-image: url('./imagens/water-43.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mae {
+    display: flex;
+    flex-direction: row;
+    border-width: 25px;
+    justify-content:center;
+}
+
+.mae > div {
+    margin: 40px;
+}
+
+.paragrafo {
+    font-size: xx-large;
+    border: 5px;
+    color: white;
+    text-align: center;
+    background-color: #1363DF;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+    border-radius: 15px;
+}
+
+.paragrafo > p {
+   margin: 20px;
+}
+
+.texto2 {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1363DF;
+    width: 350px;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+    bottom: 100px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+.input input{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+    text-align: center;
+}
+
+.input label{
+    color: white;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    background: #06283D;
+    color: #47B5FF;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+    background: white;
+    color: #1363DF;
+    padding: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0 0;
+}
+
+.copyright {
+    color: black;
+    font-size: 13px;
+    margin: 20px 0;
+    font-size: large;
+  }
