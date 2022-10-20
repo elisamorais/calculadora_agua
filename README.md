@@ -1,5 +1,12 @@
 # Calculadora de água por idade. 
 
+| 🪧 Vitrine.Dev    |  |
+| ----------- | ----------- |
+| ✨ Nome     | Calculadora de água por idade|
+| 🏷️ Tecnologias   | JavaScript, HTML, CSS |
+| 🚀 URL   | https://elisamorais.github.io/calculadora_agua/ |
+| 🔥 Desafio   | Estudos JavaScript |
+
 ### Com esta calculadora você sabe exatamente o quanto de água deve ingerir por dia para se manter hidratado. 
 #### Você informa nome, idade e peso e a calculadora fornece o cálculo em litros. 
 
